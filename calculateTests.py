@@ -50,6 +50,5 @@ class TestBeer(unittest.TestCase):
         # ASSERT
         self.assertTrue(value, "This test should always pass")
     
-
 if __name__ == '__main__':
     unittest.main()        
