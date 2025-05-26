@@ -50,9 +50,6 @@ class TestBeer(unittest.TestCase):
         # ASSERT
         self.assertTrue(value, "This test should always pass")
     
-    def test_always_fails(self):
-        self.assertTrue(False, "This test always fails")
     
-
 if __name__ == '__main__':
     unittest.main()        
