@@ -46,7 +46,7 @@ jobs:
       # Köra enhetstester
       - name: Run unit tests
         run: |
-          python -m unittest calculatetests.py
+          python -m unittest calculateTests.py
           python -m unittest dataTests.py
 
           
