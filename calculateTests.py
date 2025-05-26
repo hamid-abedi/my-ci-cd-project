@@ -42,5 +42,13 @@ class TestBeer(unittest.TestCase):
         # ASSERT
         self.assertFalse(c)
 
+    def test_always_passes(self):
+        # ARRANGE
+        value = True
+        # ACT
+        # No action needed, as we're testing a constant
+        # ASSERT
+        self.assertTrue(value, "This test should always pass")
+
 if __name__ == '__main__':
     unittest.main()        
