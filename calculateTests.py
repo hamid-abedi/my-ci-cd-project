@@ -52,6 +52,7 @@ class TestBeer(unittest.TestCase):
     
     def test_always_fails(self):
         self.assertTrue(False, "This test always fails")
-        
+    
+
 if __name__ == '__main__':
     unittest.main()        
